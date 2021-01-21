@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta lang="FR">
+        <title>Le blog des codeuses - ressources sur le dev web</title>
+        <meta name="description" content="blog">
+        <!-- CSS Reset -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <!-- Milligram CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+        <link rel="stylesheet" href="article.css">
+    </head>
+    <body>
+        <header class="ancor2">
+                  <a href="https://knitpurlcode.github.io/Blog/frontend/"><h1>Le blog des codeuses</h1></a>
+                  <h2>Des ressources sur le dev web</h2>
+        </header>
+
+        <div class="main"> 
+            <div class="allArticles"> 
+            </div>
+        </div>
+        
+        <div class="formulaire">
+          <h3>Poster une ressource</h3>
+          <form class="add-post-form" action="http://localhost:3000/api/articles" method="post">
+            <input type="text" placeholder="Titre de l'article" name="articleTitle" id="articleTitle"/><br>
+    
+            <input type="text" placeholder="Lien de la source" name= "urlRessource" id="urlRessource"/><br>
+    
+            <textarea name = "description" rows ="20" id= "description" placeholder="Description de l'article"></textarea><br>
+    
+            <input type="text" placeholder="URL de l'image" name = "heroImage" id="heroImage"/><br>
+            <input  type="submit" value="Publier"/>
+        </form>
+        </div>
+
+        <footer>
+            <div class="row column-offset-85 footerNav">
+                <p>Louise-Anne<br>
+                <a href="https://github.com/Knitpurlcode" alt="Liens Github">Lien Github</a></p>
+            </div>
+            <img class="column-offset-15 ancor1" src="img/arrow_up.png" alt="retour en haut" title="retour en haut"></img>
+        </footer>  
+
+        <script src="ancre.js"></script> 
+        <script src="index.js"></script>   
+        
+    </body>
+</html>

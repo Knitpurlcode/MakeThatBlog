@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Mobile First Media Queries */
+/* Base style */
+body, html{height:100%;}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+p{
+    color: #000000;
+}
+
+header{
+    background-color:#9b4dca;
+    color: #ffffff;
+    text-align: center;
+    padding: 5%;
+    min-height: 150px;
+}
+
+header h1{
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.allArticles{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 5%;
+    height: 75%;
+    margin: 0 5% 0 5%;
+}
+
+.allArticles .miniatures img{
+    display: flex;
+    height: 150px;
+    width: 200px;
+    margin: 2em;
+}
+
+.heroImage{
+    width: 100%;
+    height: 330px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heroImage img{
+    width: 100%;
+    height: auto;
+}
+
+.articleTitle{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Poppins', bold 700, sans-serif;
+}
+.opacity{
+    background-color: #000000;
+    opacity: 60%;
+    margin: 40px auto 40px auto;
+}
+
+a{
+    text-decoration: none;
+    color: #9b4dca;
+}
+
+.urlRessource {
+    color: #9b4dca;
+    text-align: center;
+    margin: 5% auto 5% auto;
+}
+
+.description{
+    margin-bottom: 10%;
+}
+
+.column-75{
+    min-width: 75%;
+}
+
+/* button{
+    background-color: #1E7D4D;
+    border: #1E7D4D;
+} */
+
+.formulaire {
+    text-align: center;
+    color:#9b4dca;
+}
+
+.add-post-form{
+    width: 75%;
+    height: auto;
+    margin: auto;
+}
+
+   
+
+
+
+
+/*FOOTER*/
+footer{
+    display: flex;
+    background-color:#9b4dca;
+    color: #ffffff;
+    min-height: 120px;
+    padding: auto;
+}
+
+.footerNav{
+    display: block;
+    text-align: center;
+    padding: 5%;
+}
+
+.footerNav p, .footerNav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.ancor1, .ancor1 img{
+    margin: 1rem;
+    padding: 0.5rem;  
+    max-height: 45px;
+}
